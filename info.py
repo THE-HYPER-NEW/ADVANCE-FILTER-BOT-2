@@ -25,8 +25,8 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', 'https://telegram.me/THEHYPER_ACX')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1002334193967'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002367446556').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Thehyper1232:jszZTsxI9MMLE9ut@cluster0.yscc74b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://sungjunwoo1232:eRJgnE50iqnURK1n@cluster0.t0zsw5i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bornhyper1:Bornhyper5911@cluster0.gmvpm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://susantasarkar123256m:YwwoU4F7lNEAsw5F@cluster0.oup0nhj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Hyper")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Hyper')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ' -1002334193967'))
