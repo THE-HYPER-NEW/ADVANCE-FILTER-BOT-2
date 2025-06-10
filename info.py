@@ -18,8 +18,8 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '21134445'))
-API_HASH = environ.get('API_HASH', '231c18ea7273824491d6bf05425ab74e')
+API_ID = int(environ.get('API_ID', '23513526'))
+API_HASH = environ.get('API_HASH', '8e0771f3d5d048cbf3b601b8ed152c0d')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7763229951 7125448912').split()]
 USERNAME = environ.get('USERNAME', 'https://telegram.me/xFlexyy')
@@ -30,7 +30,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://xFlexyy2:xngmQbRJ50w
 DATABASE_NAME = environ.get('DATABASE_NAME', "xflexyy-Bkl")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HxFlexyy-Bkl')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ' -1002334193967'))
-QR_CODE = environ.get('QR_CODE', 'https://files.catbox.moe/addn2n.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://files.catbox.moe/7y3r4s.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
