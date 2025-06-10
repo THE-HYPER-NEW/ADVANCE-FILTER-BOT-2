@@ -41,7 +41,7 @@
 - Media to link feature.
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway
-- [Developer support](https://telegram.me/TechifySupport) 24x7
+- [Developer support](https://t.me/DragonByte_Chat) 24x7
 - And many more... 
 </details>
 
@@ -121,7 +121,7 @@ deletefiles - To delete files by their names
 <details><summary>Tap On Me For Credit</summary>
 
 
-💝 Credit Goes To [TechifyBots](https://github.com/TechifyBots)
+💝 Credit Goes To [xFlexyy](https://github.com/xFlexyy)
 
 💘 Base Repo Credit [Eva Maria](https://telegram.me/TeamEvamaria)
 
@@ -131,7 +131,7 @@ deletefiles - To delete files by their names
 
 ### 😇 [SUPPORT](https://techifybots.github.io/PayWeb)
 
-### 🥳 [CONTACT DEVELOPER](https://telegram.me/TechifySupport)
+### 🥳 [CONTACT DEVELOPER](https://telegram.me/xFlexyy)
 
 ### 📌 NOTE
 
