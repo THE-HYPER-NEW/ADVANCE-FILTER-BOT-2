@@ -31,12 +31,12 @@ class script(object):
 » ʀᴀᴍ - <code>{}%</code>
 » ᴄᴘᴜ - <code>{}%</code></b>"""
 
-    NEW_USER_TXT = """<b>#New_User
+    NEW_USER_TXT = """<b>#New_User_@Yoshino_RoBot
 
 ≈ ɪᴅ:- <code>{}</code>
 ≈ ɴᴀᴍᴇ:- {}</b>"""
 
-    NEW_GROUP_TXT = """#New_Group
+    NEW_GROUP_TXT = """#New_Group_@Yoshino_RoBot
 
 Group name - {}
 Id - <code>{}</code>
@@ -104,7 +104,7 @@ User - {}"""
 •─────•─────────•─────•
 
 
-✨ ᴜᴘɪ ɪᴅ - <code>9333474703@FAM</code>
+✨ ᴜᴘɪ ɪᴅ - <code>9734843593@omni</code>
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ  /myplan
 
@@ -229,5 +229,5 @@ User - {}"""
 
 ❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡
 
-💖 𝐔𝐏𝐈 𝐈𝐃 : <code>9333474703@FAM</code>
+💖 𝐔𝐏𝐈 𝐈𝐃 : <code>9734843593@omni</code>
 """
