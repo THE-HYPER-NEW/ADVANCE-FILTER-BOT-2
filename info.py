@@ -21,14 +21,14 @@ def is_enabled(value, default):
 API_ID = int(environ.get('API_ID', '21134445'))
 API_HASH = environ.get('API_HASH', '231c18ea7273824491d6bf05425ab74e')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7763229951').split()]
-USERNAME = environ.get('USERNAME', 'https://telegram.me/THEHYPER_ACX')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7763229951 7125448912').split()]
+USERNAME = environ.get('USERNAME', 'https://telegram.me/xFlexyy')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1002334193967'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002367446556').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://susantasarkar123256m:YwwoU4F7lNEAsw5F@cluster0.oup0nhj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Hyper")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Hyper')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://xFlexyy:tHCajeAJH2dHDvgs@cluster2.rsmgk4k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://xFlexyy2:xngmQbRJ50wJkrQE@cluster3.41zanxn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster3")
+DATABASE_NAME = environ.get('DATABASE_NAME', "xflexyy-Bkl")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HxFlexyy-Bkl')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ' -1002334193967'))
 QR_CODE = environ.get('QR_CODE', 'https://files.catbox.moe/addn2n.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
@@ -56,7 +56,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002326594935')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002825731189')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002504526170'))
 
