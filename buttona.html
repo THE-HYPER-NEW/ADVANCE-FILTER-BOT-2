@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Episode Downloads</title>
+    <style>
+        /* Scoped styles - only affect elements with 'episode-dl' class */
+        .episode-dl {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .episode-dl .episode-container {
+            margin-bottom: 16px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid #eaeaea;
+        }
+        
+        .episode-dl .episode-header {
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #6e48aa, #5a3d8a);
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.25s ease;
+        }
+        
+        .episode-dl .episode-header:hover {
+            background: linear-gradient(135deg, #7d55bb, #6a4a9a);
+        }
+        
+        .episode-dl .download-content {
+            padding: 20px;
+            display: none;
+            animation: fadeIn 0.3s;
+            background: #f9f9f9;
+            text-align: center;
+        }
+        
+        .episode-dl .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #4a6bff, #3a5bfe);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(74, 107, 255, 0.2);
+            min-width: 200px;
+        }
+        
+        .episode-dl .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(74, 107, 255, 0.3);
+            background: linear-gradient(135deg, #5a7bff, #4a6bff);
+        }
+        
+        .episode-dl .download-btn:active {
+            transform: translateY(0);
+        }
+        
+        .episode-dl .download-btn i {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        
+        .episode-dl h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 24px;
+            font-weight: 600;
+            font-size: 22px;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Modern arrow styling */
+        .episode-dl .episode-header span {
+            transition: transform 0.3s ease;
+            font-size: 14px;
+        }
+        
+        .episode-dl .episode-header.active span {
+            transform: rotate(180deg);
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Wrap the episode section in a container with class 'episode-dl' -->
+    <div class="episode-dl">
+        <h2>SEASON ONE </h2>
+        
+        <!-- Episode 1 -->
+        <div class="episode-container">
+            <div class="episode-header" onclick="toggleDownload(this)">
+                Episode 01: Dreaming of a Land of Sweets
+                <span>▼</span>
+            </div>
+            <div class="download-content">
+                <a href="https://t.me/xFlexyy" target="_blank" class="download-btn">
+                    <i class="fas fa-download"></i> Download Now
+                </a>
+            </div>
+        </div>
+        
+        <!-- Episode 2 -->
+        <div class="episode-container">
+            <div class="episode-header" onclick="toggleDownload(this)">
+                Episode 02: Journey to Candy Mountain
+                <span>▼</span>
+            </div>
+            <div class="download-content">
+                <a href="YOUR_LINK_HERE" target="_blank" class="download-btn">
+                    <i class="fas fa-download"></i> Download Now
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleDownload(header) {
+            header.classList.toggle('active');
+            const content = header.nextElementSibling;
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
